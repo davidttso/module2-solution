@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2.75em;
+}
+
+p {
+    color: #dbdbdb;
+    clear: right;
+    padding: 18px 18px 18px 18px;
+}
+
+
+
+.wrapper {
+    padding: 0 5%;
+  /*  background-color: red; */
+    width: 100%;
+    position:absolute;
+}
+
+.section {              
+    position: relative;
+    width: 32.33%; /*//////////////////////////////*/
+    max-height: 300px;
+    background-color: #983352;
+    float: left;
+    display: block;
+    border: 1px solid #000000;
+    overflow: auto;
+    margin-left: 1%;
+    
+}
+
+#titleC {
+    width: 35%;
+    background-color: #764B8E;
+    padding: 7px 0;
+    text-align: center;
+    float: right;
+    color: #dbdbdb;
+    font-weight: bold;
+    border: 1px solid #000000;
+    font-size: 1.25em
+}
+
+
+#titleB {
+    width: 35%;
+    background-color: #BE5F7C;
+    padding: 7px 0;
+    text-align: center;
+    float: right;
+    color: #dbdbdb;
+    font-weight: bold;
+    border: 1px solid #000000;
+    font-size: 1.25em;
+}
+
+
+
+#titleS {
+    width: 35%;
+    background-color: #FF9F41;
+    padding: 7px 0;
+    text-align: center;
+    float: right;
+    color: #dbdbdb;
+    font-weight: bold;
+    border: 1px solid #000000;
+    font-size: 1.25em
+}
+
+
+/*//////// MEDIA QUERIES ////////*/
+
+@media (min-width:992px) {
+
+    .wrapper {
+        padding: 0 5%;
+      /*  background-color: red; */
+        width: 100%;
+        position:absolute;
+    }
+
+    .section {              
+        position: relative;
+        width: 32.33%; /*//////////////////////////////*/
+        max-height: 300px;
+        background-color: #983352;
+        float: left;
+        display: block;
+        border: 1px solid #000000;
+        overflow: auto;
+        margin-left: 1%;
+
+    }
+}
+
+
+/*/////// TABLET ////////*/
+
+@media (min-width:768px) and (max-width:991px) {
+ 
+    .section {              
+        position: relative;
+        width: 49%; 
+        max-height: 300px;
+        background-color: #983352;
+        float: left;
+        display: block;
+        border: 1px solid #000000;
+        overflow: auto;
+        margin-left: 1%;
+        margin-top: 25px;
+
+    }
+    
+    .section:nth-child(3) {
+        width: 100%;
+    }
+}
+
+/*//////////// PHONE /////////////////*/
+
+@media (max-width:767px) {
+    
+
+    .section {              
+        position: relative;
+        width: 99%; 
+        max-height: 300px;
+        background-color: #983352;
+        float: left;
+        display: block;
+        border: 1px solid #000000;
+        overflow: auto;
+        margin-left: 1%;
+        margin-top: 25px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
